@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Main {
+public class BJ1003 {
     private int[] list = new int[41];
     private int n;
 
-    public Main() {
+    public BJ1003() {
         list[1] = 1;
     }
 
@@ -34,7 +34,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
-        Main m = new Main();
+        BJ1003 m = new BJ1003();
         int test;
         int n;
         test = scanner.nextInt();
